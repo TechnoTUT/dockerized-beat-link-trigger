@@ -1,0 +1,1 @@
+java -jar /beat-link-trigger-7.1.0.jar

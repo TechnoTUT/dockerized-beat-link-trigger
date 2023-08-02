@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  blt:
+    build: .
+    network_mode: host
+    restart: always
+    volumes:
+      - ./bltconfig:/root/bltconfig
+    tty: true
